@@ -12,7 +12,7 @@ This code uses the Win32 API functions CreateToolhelp32Snapshot and Process32Fir
 Note that not all DLLs that are loaded by a process but do not exist on the system are necessarily candidates for DLL hijacking, as some may be legitimate system or application files that are temporarily loaded into memory. This BOF is intended to help identify potential candidates for further investigation, but further analysis is required to determine whether a DLL is actually vulnerable to DLL hijacking.
 
 
-## Find-Password
+## Find-Passwords
 
 Here's a simple BOF code that searches for all files in the Windows file system that have the string "password" in their name and prints their full path to the Beacon console:
 
